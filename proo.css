@@ -1,0 +1,224 @@
+body {
+    overflow-x: hidden
+}
+
+#erro-total {
+    width: 700px;
+    height: 270px;
+    margin: 15px 0
+}
+
+#imagem-centralizada {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0
+}
+
+#texto-404 {
+    width: 100%;
+    font-family: Calibri;
+    font-size: 22px;
+    text-align: center
+}
+
+#aguarde {
+    width: 100%;
+    font-family: Calibri;
+    font-size: 19px;
+    text-align: center;
+    margin: 5px 0
+}
+
+.page-404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px
+}
+
+a {
+    text-decoration: none
+}
+
+.logo-pw div p:first-child a {
+    color: #fff;
+    font: 12px Helvetica;
+    margin-top: -8px;
+    display: block
+}
+
+.logo-pw div {
+    text-align: left
+}
+
+.logo-pw div a span {
+    color: transparent
+}
+
+.global {
+    margin: 0 auto;
+    margin-top: -120px
+}
+
+.conteudo-pages {
+    min-height: 500px;
+    width: 998px;
+    margin: 0 auto
+}
+
+.texto-pages {
+    font: 15px/25px Calibri;
+    color: #000;
+    text-align: justify
+}
+
+.texto-pages h1 {
+    font: 25px Calibri;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #000
+}
+
+.texto-pages h2 {
+    font: 20px Calibri;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #000
+}
+
+.menu-resp,
+.overlay,
+.fechar {
+    display: none
+}
+
+.contato input {
+    width: 100%;
+    padding: 10px 20px;
+    background: #eee;
+    border: #ccc;
+    color: #666;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    outline: none!important
+}
+
+.contato textarea {
+    width: 100%;
+    padding: 10px 20px;
+    background: #eee;
+    border: #ccc;
+    color: #666;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    outline: none!important;
+    resize: none;
+    height: 200px
+}
+
+.contato .submit {
+    cursor: pointer;
+    background: #016086;
+    color: #fff
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0
+}
+
+.slider.resp {
+    display: none
+}
+
+.topo-total {
+    position: relative
+}
+
+.topo {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.topo > div {
+    margin: 50px 0;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.menu {
+    position: relative
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    visibility: hidden
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 20px;
+    font: 22px calibri;
+    color: #fff;
+    font-weight: lighter;
+    transition: all .5s
+}
+
+.menu li a:hover {
+    color: #f47e34;
+}
+
+.menu li a.ativo {
+    color: #f47e34;
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: -2px 0 6px -3px #000 inset;
+    background: rgba(0, 0, 0, 0.34);
+    border-radius: 0 15px 15px 15px;
+    transition: all .5s;
+}
+
+.rodape-total {
+    background: #746447;
+}
+
+.rodape {
+    width: 1200px;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center
+}
+
+.rodape > div {
+    font: 24px calibri;
+    font-weight: lighter;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 40px;
+    vertical-align: middle
+}
+
+.rodape > div i {
+    font-size: 65px;
+    color: inherit;
+    vertical-align: middle
+}
+
+.logo-pw {
+    text-align: center;
+    padding: 10px 0;
+    display: table;
+    margin: auto
+}
+.g-recaptcha{
+    display: flex;
+    justify-content: center;
+}
